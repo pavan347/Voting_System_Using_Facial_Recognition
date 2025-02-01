@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="bg-white p-8 rounded-lg shadow-lg max-w-lg mx-auto">
+    <h2 class="text-2xl font-bold text-orange-600 text-center mb-4">Add a New User</h2>
+    <form action='/add' method="POST" enctype="multipart/form-data"class="space-y-4">
+        <div>
+            <label for="name" class="block text-gray-700 font-semibold">Full Name</label>
+            <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500">
+        </div>
+        <div>
+            <label for="id" class="block text-gray-700 font-semibold">User Id</label>
+            <input type="number" id="id" name="id" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="bg-orange-600 text-white px-6 py-2 rounded-lg hover:bg-orange-600">Save User</button>
+        </div>
+        <h5><i>Total Users in Database: {{totalreg}}</i></h5>
+    </form>
+</div>
+{% endblock %}
