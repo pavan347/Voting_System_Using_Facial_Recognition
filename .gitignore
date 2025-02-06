@@ -9,6 +9,9 @@ __pycache__/
 # Database
 users.db
 
+#SetUp Installation
+SETUP.md
+
 # Distribution / packaging
 .Python
 build/
