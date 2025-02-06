@@ -3,6 +3,8 @@
 ## Project Overview
 This project aims to develop a face recognition-based voting system to ensure electoral integrity. The system leverages artificial intelligence to authenticate voters and prevent fraudulent activities.
 
+The system captures the voter's face using a camera, processes the image using AI algorithms to verify the identity, and then allows the verified voter to cast their vote. This ensures that only legitimate voters can participate in the election, enhancing the overall security and integrity of the voting process.
+
 ## Features
 - **Face Recognition**: Uses AI to verify voter identity.
 - **Secure Voting**: Ensures that each vote is cast by a legitimate voter.
