@@ -12,6 +12,14 @@ users.db
 #SetUp Installation
 SETUP.md
 
+# Project Files
+modules
+static
+templates
+app.py
+config.py
+haarcascade_frontalface_default.xml
+
 # Distribution / packaging
 .Python
 build/

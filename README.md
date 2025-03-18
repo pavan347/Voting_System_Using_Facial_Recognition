@@ -36,9 +36,9 @@ The system captures the voter's face using a camera, processes the image using A
 ## Demo
 
 - Demo video of the AI Electoral Integrity Face Recognition Voting System:
-    [![AIEVS Demo Thumbnail](./static/Project_Demo_Videos/Thumbnails/AIEIVS.png)](./static/Project_Demo_Videos/AIEIVS.mp4)
+    [![AIEVS Demo Thumbnail](./Project_Demo_Videos/Thumbnails/AIEIVS.png)](./Project_Demo_Videos/AIEIVS.mp4)
 - Demo video of the voting process:
-    [![AIEVS Demo Demo Thumbnail](./static/Project_Demo_Videos/Thumbnails/AIEIVS_Voting_Thumnail.png)](./static/Project_Demo_Videos/AIEIVS_Voting_Video.mp4)
+    [![AIEVS Demo Demo Thumbnail](./Project_Demo_Videos/Thumbnails/AIEIVS_Voting_Thumnail.png)](./Project_Demo_Videos/AIEIVS_Voting_Video.mp4)
    
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
